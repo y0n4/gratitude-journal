@@ -7,8 +7,7 @@
     "start": "node server/index.js",
     "start-dev": "nodemon server/index",
     "react-dev": "webpack -d --watch",
-    "react-build": "webpack --mode production",
-    "postinstall": "npm run react-build"
+    "react-build": "webpack --mode production"
   },
   "author": "yona",
   "license": "ISC",
