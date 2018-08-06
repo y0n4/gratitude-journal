@@ -38,6 +38,8 @@ app.put('/items', function (req, res) {
   //call update func to pass this data into database
 });
 
-app.listen(3000, function() {
+var PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function() {
   console.log('listening on port 3000!');
 });
