@@ -1,7 +1,8 @@
 //server
 var express = require('express');
 var bodyParser = require('body-parser');
-var items = require('../database-mongo'); //database
+// var items = require('../database-mongo'); //database
+var data = require('../database');
 
 var app = express();
 
